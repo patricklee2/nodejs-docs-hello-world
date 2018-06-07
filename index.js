@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
     var args="";
     process.argv.forEach(function (val, index, array) {
-      args = index + ': ' + val + "\n";
+      args = args + index + ': ' + val + "\n";
     });
 
     response.writeHead(200, {"Content-Type": "text/plain"});
