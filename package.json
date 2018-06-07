@@ -9,7 +9,7 @@
         "node": ">=6.9.1"
     },
     "scripts": {
-        "start": "node index.js abc 'abc abc' abc",
+        "start": "./startup.sh",
         "start_azure_debug": "node --inspect=0.0.0.0:$APPSVC_TUNNEL_PORT index.js",
         "debug": "node --inspect=127.0.0.1:9229 index.js"
     }
