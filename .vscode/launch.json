@@ -7,11 +7,11 @@
         {
             "type": "node",
             "request": "attach",
-            "name": "Attach to Remote",
-            "address": "172.18.0.1",
-            "port": 18668,
-            "localRoot": "${workspaceFolder}",
-            "remoteRoot": "/home/site/wwwroot"
+            "name": "Attach To Node",
+            "port": 12345,
+            "address": "127.0.0.1",
+            "protocol": "inspector"
         }
+
     ]
 }
