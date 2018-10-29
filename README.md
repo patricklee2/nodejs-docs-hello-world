@@ -1,5 +1,6 @@
 # Node.js Hello World
 
+Used to test Blessed NodeJS images at https://github.com/patricklee2/appsvcbuild
 This sample demonstrates a tiny Hello World node.js app for [App Service Web App](https://docs.microsoft.com/azure/app-service-web).
 
 # Contributing
